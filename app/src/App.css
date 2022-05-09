@@ -3,7 +3,6 @@
   background-color: rgb(20, 20, 20);
   overflow: scroll;
   text-align: center;
-  overflow: hidden;
 }
 
 .container {
@@ -40,7 +39,6 @@
 
 .gradient-text {
   background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
