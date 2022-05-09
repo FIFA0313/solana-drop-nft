@@ -1,0 +1,19 @@
+{
+    "name": "sugar",
+    "symbol": "SGR",
+    "image": "sugar.png",
+    "properties": {
+        "files": [
+            {
+                "url": "sugar.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "INSERT_YOUR_WALLET_ADDRESS",
+                "share": 100
+            }
+        ]
+    }
+}

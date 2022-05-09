@@ -1,0 +1,19 @@
+{
+    "name": "cocoa",
+    "symbol": "COA",
+    "image": "cocoa.png",
+    "properties": {
+        "files": [
+            {
+                "url": "cocoa.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "INSERT_YOUR_WALLET_ADDRESS",
+                "share": 100
+            }
+        ]
+    }
+}
