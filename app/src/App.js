@@ -8,7 +8,13 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const App = () => {
   const { walletAddress, setWalletAddress } = useState(null);
 
-  const connectWallet = async () => {};
+  const connectWallet = async () => {
+    const { solana } = window;
+    if (solana) {
+      const response = await solana.connect();
+      setWalletAddress(response.publicKey.toString());
+    }
+  };
 
   const renderNotConnectedContainer = () => {
     <button
@@ -37,7 +43,7 @@ const App = () => {
       }
     };
 
-    onLoad()
+    onLoad();
 
     window.addEventListener("load", onLoad);
 
