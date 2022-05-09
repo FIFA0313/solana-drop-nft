@@ -1,11 +1,11 @@
 {
-    "name": "cocoa",
-    "symbol": "COA",
-    "image": "cocoa.png",
+    "name": "coffee",
+    "symbol": "CFE",
+    "image": "1.png",
     "properties": {
         "files": [
             {
-                "url": "cocoa.png",
+                "url": "1.png",
                 "type": "image/png"
             }
         ],

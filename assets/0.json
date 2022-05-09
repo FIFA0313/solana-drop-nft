@@ -1,11 +1,11 @@
 {
     "name": "sugar",
     "symbol": "SGR",
-    "image": "sugar.png",
+    "image": "0.png",
     "properties": {
         "files": [
             {
-                "url": "sugar.png",
+                "url": "0.png",
                 "type": "image/png"
             }
         ],
